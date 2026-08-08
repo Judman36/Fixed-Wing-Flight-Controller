@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2452766d-f831-4cb5-9744-f5cf09b1c071")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 68.58 66.04)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3e3cf357-ddc3-47ba-8b31-ec87772f6971")
+		(property "Sheetname" "mcu"
+			(at 68.58 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 66.04)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "686d1077-cd44-4fde-889b-2abea020154a")
+		(property "Sheetname" "barometer"
+			(at 105.41 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer.kicad_sch"
+			(at 105.41 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDX" bidirectional
+			(at 105.41 69.85 180)
+			(uuid "5dfe7715-888f-412e-861f-ae0cccc93f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" input
+			(at 105.41 78.74 180)
+			(uuid "e2f4a8f9-496e-4419-b70b-9b9b3511185d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCX" input
+			(at 105.41 73.66 180)
+			(uuid "97408454-cc6a-46e0-b718-3fae77f32263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
