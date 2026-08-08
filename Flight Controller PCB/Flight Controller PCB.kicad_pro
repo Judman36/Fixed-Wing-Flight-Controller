@@ -420,7 +420,7 @@
         "uuid": "2452766d-f831-4cb5-9744-f5cf09b1c071"
       }
     ],
-    "used_designators": "U1-2,#PWR1-5,C1-2",
+    "used_designators": "U1-2,#PWR1-5,C1-2,J1",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "686d1077-cd44-4fde-889b-2abea020154a",
       "barometer"
+    ],
+    [
+      "6af07b22-b6cc-4ffb-944d-0bd845e0f7f5",
+      "gps"
     ]
   ],
   "text_variables": {},
