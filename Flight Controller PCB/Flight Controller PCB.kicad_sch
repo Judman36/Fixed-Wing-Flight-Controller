@@ -128,7 +128,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 66.04)
+		(at 105.41 36.83)
 		(size 20.32 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -144,7 +144,7 @@
 		)
 		(uuid "6af07b22-b6cc-4ffb-944d-0bd845e0f7f5")
 		(property "Sheetname" "gps"
-			(at 140.97 65.3284 0)
+			(at 105.41 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 140.97 85.6746 0)
+			(at 105.41 56.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -163,6 +163,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "INTERUPT" input
+			(at 105.41 40.64 180)
+			(uuid "693d68e6-4bd5-4e4f-9865-f58088691c45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 105.41 43.18 180)
+			(uuid "0468ad89-0bda-4d49-83ee-25724ad4773b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 49.53 180)
+			(uuid "c664d181-b88e-4b44-997b-49a264c64daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 105.41 52.07 180)
+			(uuid "6eb5f769-eee8-4432-ae25-dc17e2a16685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

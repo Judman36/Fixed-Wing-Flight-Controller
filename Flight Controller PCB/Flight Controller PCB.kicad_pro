@@ -420,7 +420,7 @@
         "uuid": "2452766d-f831-4cb5-9744-f5cf09b1c071"
       }
     ],
-    "used_designators": "U1-2,#PWR1-5,C1-2,J1",
+    "used_designators": "#PWR6-9,C3-4",
     "variants": []
   },
   "sheets": [
