@@ -420,7 +420,7 @@
         "uuid": "2452766d-f831-4cb5-9744-f5cf09b1c071"
       }
     ],
-    "used_designators": "#PWR6-9,C3-4",
+    "used_designators": "#PWR6-14,C3-6,U3,R1",
     "variants": []
   },
   "sheets": [
@@ -439,6 +439,10 @@
     [
       "6af07b22-b6cc-4ffb-944d-0bd845e0f7f5",
       "gps"
+    ],
+    [
+      "76495d7a-8ad0-43cd-be5c-7d46450f1e3a",
+      "imu"
     ]
   ],
   "text_variables": {},

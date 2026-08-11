@@ -1,0 +1,328 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2452766d-f831-4cb5-9744-f5cf09b1c071")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 68.58 66.04)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3e3cf357-ddc3-47ba-8b31-ec87772f6971")
+		(property "Sheetname" "mcu"
+			(at 68.58 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 66.04)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "686d1077-cd44-4fde-889b-2abea020154a")
+		(property "Sheetname" "barometer"
+			(at 105.41 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer.kicad_sch"
+			(at 105.41 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDX" bidirectional
+			(at 105.41 69.85 180)
+			(uuid "5dfe7715-888f-412e-861f-ae0cccc93f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" input
+			(at 105.41 78.74 180)
+			(uuid "e2f4a8f9-496e-4419-b70b-9b9b3511185d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCX" input
+			(at 105.41 73.66 180)
+			(uuid "97408454-cc6a-46e0-b718-3fae77f32263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 36.83)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6af07b22-b6cc-4ffb-944d-0bd845e0f7f5")
+		(property "Sheetname" "gps"
+			(at 105.41 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 105.41 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INTERUPT" input
+			(at 105.41 40.64 180)
+			(uuid "693d68e6-4bd5-4e4f-9865-f58088691c45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 105.41 43.18 180)
+			(uuid "0468ad89-0bda-4d49-83ee-25724ad4773b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 105.41 49.53 180)
+			(uuid "c664d181-b88e-4b44-997b-49a264c64daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 105.41 52.07 180)
+			(uuid "6eb5f769-eee8-4432-ae25-dc17e2a16685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 91.44)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76495d7a-8ad0-43cd-be5c-7d46450f1e3a")
+		(property "Sheetname" "imu"
+			(at 105.41 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 105.41 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 105.41 93.98 180)
+			(uuid "92f910cd-fade-4587-83b1-1d830475eecb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 105.41 105.41 180)
+			(uuid "420eb1a5-c0cd-4f82-8deb-a94f8b595e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 105.41 107.95 180)
+			(uuid "5048dc2e-2850-4487-9c98-3f3a5c7f9277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 105.41 96.52 180)
+			(uuid "77d15338-8426-48f3-bb0a-bd18e140c311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 120.65 99.06 0)
+			(uuid "cfa9c716-3255-480d-961f-142401b782c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 105.41 100.33 180)
+			(uuid "8ac03677-c834-4d1b-84fb-a65cb98d2879")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

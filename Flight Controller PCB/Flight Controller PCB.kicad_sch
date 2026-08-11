@@ -53,7 +53,7 @@
 	)
 	(sheet
 		(at 105.41 66.04)
-		(size 20.32 19.05)
+		(size 15.24 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -129,7 +129,7 @@
 	)
 	(sheet
 		(at 105.41 36.83)
-		(size 20.32 19.05)
+		(size 15.24 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -209,6 +209,102 @@
 			(project "Flight Controller PCB"
 				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 91.44)
+		(size 15.24 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76495d7a-8ad0-43cd-be5c-7d46450f1e3a")
+		(property "Sheetname" "imu"
+			(at 105.41 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 105.41 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT1" output
+			(at 105.41 105.41 180)
+			(uuid "420eb1a5-c0cd-4f82-8deb-a94f8b595e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 105.41 107.95 180)
+			(uuid "5048dc2e-2850-4487-9c98-3f3a5c7f9277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 105.41 96.52 180)
+			(uuid "77d15338-8426-48f3-bb0a-bd18e140c311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 105.41 93.98 180)
+			(uuid "cfa9c716-3255-480d-961f-142401b782c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 105.41 99.06 180)
+			(uuid "8ac03677-c834-4d1b-84fb-a65cb98d2879")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "5")
 				)
 			)
 		)
