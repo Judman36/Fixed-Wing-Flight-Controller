@@ -491,8 +491,8 @@
 	)
 	(text_box "TODO\n\n* check LDO with bat input + board draw\n* check switch components\n* add power supply circuit\n* add connectors\n* add buttons\n* add status LEDs to board\n* add mounting holes to schematic\n* add test points"
 		(exclude_from_sim no)
-		(at 214.63 26.67 0)
-		(size 44.45 48.26)
+		(at 210.82 26.67 0)
+		(size 40.64 48.26)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
