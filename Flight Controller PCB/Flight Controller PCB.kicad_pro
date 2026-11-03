@@ -642,7 +642,7 @@
         "uuid": "2452766d-f831-4cb5-9744-f5cf09b1c071"
       }
     ],
-    "used_designators": "C16-17,R3-4,J2,J8,D2,D7-8,#PWR26-32,U5",
+    "used_designators": "U6,#PWR33-34,C18-19,R5-6",
     "variants": []
   },
   "sheets": [
@@ -669,6 +669,10 @@
     [
       "028bf088-3ebe-4ce7-8048-2b342e447c79",
       "USBC"
+    ],
+    [
+      "21d77a51-b3c4-47e0-8ea7-a0790e349652",
+      "magnometer"
     ]
   ],
   "text_variables": {},

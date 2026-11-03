@@ -489,10 +489,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "TODO\n\n* check LDO with bat input + board draw\n* check switch components\n* add power supply circuit\n* add connectors\n* add buttons\n* add status LEDs to board\n* add mounting holes to schematic\n* add test points"
+	(text_box "TODO\n\n* check LDO with bat input + board draw\n* check imu schematic, i dont trust it\n* check switch components\n* add power supply circuit\n* add connectors\n* add buttons\n* add status LEDs to board\n* add mounting holes to schematic\n* add test points\n* add downlink"
 		(exclude_from_sim no)
-		(at 210.82 26.67 0)
-		(size 40.64 48.26)
+		(at 214.63 26.67 0)
+		(size 44.45 48.26)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1103,7 +1103,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 35.56)
+		(at 105.41 139.7)
 		(size 13.97 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1119,7 +1119,7 @@
 		)
 		(uuid "028bf088-3ebe-4ce7-8048-2b342e447c79")
 		(property "Sheetname" "USBC"
-			(at 144.78 34.8484 0)
+			(at 105.41 138.9884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1130,7 +1130,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 144.78 56.4646 0)
+			(at 105.41 160.6046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1141,7 +1141,7 @@
 			)
 		)
 		(pin "USB-" input
-			(at 144.78 39.37 180)
+			(at 105.41 143.51 180)
 			(uuid "33621e53-6926-4cd8-9839-056447a5d214")
 			(effects
 				(font
@@ -1151,7 +1151,7 @@
 			)
 		)
 		(pin "USB+" input
-			(at 144.78 41.91 180)
+			(at 105.41 146.05 180)
 			(uuid "43811e43-c145-4ffc-a4e2-3ee71654f736")
 			(effects
 				(font
@@ -1164,6 +1164,82 @@
 			(project "Flight Controller PCB"
 				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 119.38)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "21d77a51-b3c4-47e0-8ea7-a0790e349652")
+		(property "Sheetname" "magnometer"
+			(at 105.41 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnometer.kicad_sch"
+			(at 105.41 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT" input
+			(at 105.41 121.92 180)
+			(uuid "8ef29509-2e5e-4008-adc8-038511b6a110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" bidirectional
+			(at 105.41 125.73 180)
+			(uuid "4f9b4a78-3262-4b35-a141-d8350c30eebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 105.41 129.54 180)
+			(uuid "c895db02-8f4c-414f-a0f8-f90cc0913318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Flight Controller PCB"
+				(path "/2452766d-f831-4cb5-9744-f5cf09b1c071"
+					(page "7")
 				)
 			)
 		)
